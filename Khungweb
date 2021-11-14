@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồ án web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   </head>
+<body>
+  <nav>
+    <!--Top bar menu-->
+    <div class="top_menu">
+      <ul class="diachi">Địa chỉ: Hoa Thủy, Lệ Thủy, Quảng Bình</ul>
+    </div>
+    <!--secondary menu-->
+    <div class="second_menu">
+      <div class="logo">
+        <h>HungPham</h>
+      </div>
+    </div>
+    <!--Main menu-->
+    <div class="menu">
+      <ul>
+        <!--Menu-->
+        <li><a href="#">Trang chủ</a></li>
+        <li><a href="#">Giới thiệu</a></li>
+        <li><a href="#">Sản phẩm</a></li>
+        <li><a href="#">Tin tức</a></li>
+        <li><a href="#">Liên hệ</a></li>
+        <li><a href="#">Đăng nhập</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+
+      <!--banner-->
+<section class="banner">
+  <div>
+    <div class="danhmuc1">
+      <h>HungPham</h>
+    </div>
+  
+  <div class="slider">
+    <img class="mySlides" src="slider1.jpg"
+    style="width:100%">
+    <img class="mySlides" src="slider2.jpg"
+    style="width:100%">
+    <img class="mySlides" src="slider3.jpg"
+    style="width:100%">
+  </div>
+</div>
+</section>
+<!--danh mục sản phẩm-->  
+  <section class="danhmucsp">
+    <article>
+      <img src="dualeo.jpg" alt="Random Name" style="width:100%">
+      <p>Dưa leo baby</p>
+      <button class="buttom">Chọn mua</button>
+    </article>
+  </section>
+<!--Sản phẩm -->
+  <section class="w3-row-padding w3-center w3-light-grey">
+    <article class="w3-third">
+      <img src="dualeo.jpg" alt="Random Name" style="width:100%">
+      <p>Dưa leo baby</p>
+      <p class="price">23.000đ</p>
+      <button class="buttom">Chọn mua</button>
+    </article>
+    <article class="w3-third">
+      <img src="bapmy.jpg" alt="Random Name" style="width:100%">
+      <p>Bắp mỹ giòn ngọt</p>
+      <p class="price">23.000đ</p>
+      <button class="buttom">Chọn mua</button>
+    </article>
+    <article class="w3-third">
+      <img src="bapcai.jpg" alt="Random Name" style="width:100%">
+      <p>Rau cải thìa tươi</p>
+      <p class="price">23.000đ</p>
+      <button class="buttom">Chọn mua</button>
+    </article>
+    <article class="w3-third">
+      <img src="hanhtim.jpeg" alt="Hành tím Ấn độ" style="width:100%">
+      <p>Hành tím ấn độ</p>
+      <p class="price">23.000đ</p>
+      <button class="buttom">Chọn mua</button>
+    </article>
+    <article class="w3-third">
+      <img src="tao.jpg" alt="Random Name" style="width:100%">
+      <p>Táo New Zeland</p>
+      <p class="price">23.000đ</p>
+      <button class="buttom">Chọn mua</button>
+    </article>
+    <article class="w3-third">
+      <img src="dualeo.jpg" alt="Random Name" style="width:100%">
+      <p>Dưa leo baby</p>
+      <p class="price">23.000đ</p>
+      <button class="buttom">Chọn mua</button>
+    </article>
+    <article class="w3-third">
+      <img src="bapmy.jpg" alt="Random Name" style="width:100%">
+      <p>Bắp mỹ giòn ngọt</p>
+      <p class="price">23.000đ</p>
+      <button class="buttom">Chọn mua</button>
+    </article>
+    <article class="w3-third">
+      <img src="bapcai.jpg" alt="Random Name" style="width:100%">
+      <p>Rau cải thìa tươi</p>
+      <p class="price">23.000đ</p>
+      <button class="buttom">Chọn mua</button>
+    </article>
+    <article class="w3-third">
+      <img src="hanhtim.jpeg" alt="Hành tím Ấn độ" style="width:100%">
+      <p>Hành tím ấn độ</p>
+      <p class="price">23.000đ</p>
+      <button class="buttom">Chọn mua</button>
+    </article>
+    <article class="w3-third">
+      <img src="tao.jpg" alt="Random Name" style="width:100%">
+      <p>Táo New Zeland</p>
+      <p class="price">23.000đ</p>
+      <button class="buttom">Chọn mua</button>
+    </article>
+    <button class="buttomchinh">Xem tất cả</button>
+  </section>
+  <!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  <p style="line-height:10px;">Design by hpweb.vn</p>
+  </p>
+</footer>
+<script>
+  // Automatic Slideshow - change image every 3 seconds
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+  }
+  </script>
+</body>
+
+</html>
