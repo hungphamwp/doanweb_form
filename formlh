@@ -14,8 +14,7 @@
       | Lời nhắn 
       em &#x2a;
     textarea rows="4" id="customerNote" name="customerNote" required=""
-    h3 Please provide all the information about your issue you can.
-    label for="spamProtection"
-    input type="text" id="spamProtection" name="spamProtection"
+    Vui lòng điền thông tin bên để được tư vấn miễn phí.
+    Xin cảm ơn!
     button  id="customerOrder" SUBMIT
   
